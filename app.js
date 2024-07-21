@@ -1,16 +1,16 @@
 let calculator = {
   
   read() {
-      a = +prompt("Enter a number:");
-      b = +prompt("Enter b number:");
+      this.a = +prompt("Enter a number:");
+      this.b = +prompt("Enter b number:");
   },
 
   sum() {
-      return a + b;
+      return this.a + this.b;
   },
 
   mul() {
-      return a * b;
+      return this.a * this.b;
   }
 
 };
